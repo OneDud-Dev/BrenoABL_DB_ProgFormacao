@@ -1,0 +1,14 @@
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\BrenoABL_ProgramaFormacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\BrenoABL_ProgramaFormacao.AssemblyInfoInputs.cache
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\BrenoABL_ProgramaFormacao.AssemblyInfo.cs
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\BrenoABL_ProgramaFormacao.csproj.CoreCompileInputs.cache
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\bin\Debug\net8.0\BrenoABL_ProgramaFormacao.exe
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\bin\Debug\net8.0\BrenoABL_ProgramaFormacao.deps.json
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\bin\Debug\net8.0\BrenoABL_ProgramaFormacao.runtimeconfig.json
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\bin\Debug\net8.0\BrenoABL_ProgramaFormacao.dll
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\bin\Debug\net8.0\BrenoABL_ProgramaFormacao.pdb
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\BrenoABL_ProgramaFormacao.dll
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\refint\BrenoABL_ProgramaFormacao.dll
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\BrenoABL_ProgramaFormacao.pdb
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\BrenoABL_ProgramaFormacao.genruntimeconfig.cache
+C:\Users\Breno\source\repos\BrenoABL.DesafioDB_ProgFormacao\BremoABL_ProgramaFormacao\obj\Debug\net8.0\ref\BrenoABL_ProgramaFormacao.dll
