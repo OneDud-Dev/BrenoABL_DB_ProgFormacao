@@ -63,10 +63,12 @@ sealed class InputProductsToList
 
         for (int i = 0; i < names.Count; i++)
         {
-            Console.WriteLine
-                ($"Nome: {names[i]} \t\t Quantidade: {qty[i]} \t\t Preço: {(ProductDiscount.TestForDiscount(qty[i], prices[i]))} .");
+            var discount = ProductDiscount.TestForDiscount(qty[i], prices[i]);
             
-            total += ProductDiscount.TestForDiscount(qty[i], prices[i]);
+            total += discount;
+
+            Console.WriteLine
+                ($"Nome: {names[i]} \t\t Quantidade: {qty[i]} \t\t Preço: {discount} .");
         }
 
         Console.WriteLine();
