@@ -6,12 +6,12 @@ internal class JankenRound
     public static void RunJanken()
     {
         int aiPlay = AiChoice.ChoseRandomAction();
-        int pcPlay = PlayerChoiceInput.ReadPlayer();
+        string? pcPlay = PlayerChoiceInput.ReadPlayer();
 
         
         switch (pcPlay)
         {
-            case 1:
+            case "1":
                 Console.WriteLine("A escolha do jogador é Pedra ");
                 switch (aiPlay)
                 {
@@ -34,7 +34,7 @@ internal class JankenRound
 
 
 
-            case 2:
+            case "2":
                 Console.WriteLine("A escolha do jogador é Papel ");
                 switch (aiPlay)
                 {
@@ -57,7 +57,7 @@ internal class JankenRound
 
 
 
-            case 3:
+            case "3":
                 Console.WriteLine("A escolha do jogador é Tesoura ");
                 switch (aiPlay)
                 {
@@ -81,6 +81,8 @@ internal class JankenRound
                 
 
             default:
+                Console.WriteLine("Digito invalido, envie novamente o codigo relacionado a sua ação: ");
+                RunJanken();
                 break;
         }
     }

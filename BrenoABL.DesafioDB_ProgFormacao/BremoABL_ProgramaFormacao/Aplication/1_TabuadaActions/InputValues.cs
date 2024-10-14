@@ -3,15 +3,15 @@
 sealed class InputValues
 {
 
-    public static int Read()
+    public static string Read()
     {
         Console.WriteLine("Digite um numero entre 1 e 10 para construir sua taboada de multiplicação");
         Console.WriteLine("Sua escolha : ");
 
-        int result = int.Parse(Console.ReadLine() );
+        string? result = Console.ReadLine();
         try
         {
-            Validation(result);
+            Validation(int.Parse( result));
         }
         catch (ArgumentException ex)
         {

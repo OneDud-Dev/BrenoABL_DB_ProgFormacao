@@ -2,20 +2,20 @@
 
 sealed class TabuadaResult
 {
-    public static List<string> Build(int input)
+    public static void Build(int input)
     {
 
-        List<string> listaResultado = new List<string>();
+        //List<string> listaResultado = new List<string>();
 
-        for (int linha = 1; linha < 11; linha++)
+        for (int col = 1; col < 11; col++)
         {
-            for (int col = 1; col < 11; col++)
-            {
-                listaResultado.Add($" {input} x {col} = {input * col} ");
-            }
-        }
 
-        return listaResultado;
+            Console.Write($" {input} x {col} = {input * col} ");
+            Console.WriteLine();
+        }
+        
+
+        //return listaResultado;
     }
 
 

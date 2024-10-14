@@ -5,15 +5,15 @@ public class NumberGenerator
 {
 
     private List<int> numberList = new List<int>();
-    public int indexFromMin { get; private set; } = 1;
-    public int indexFromMax { get; private set; } = 1;
+    public int Min { get; private set; }
+    public int max { get; private set; }
 
 
 
     public NumberGenerator()
     {
-        indexFromMin = 1;
-        indexFromMax = 1;
+        Min = 100;
+        max = 0;
 
         Generate();
     }
@@ -25,31 +25,28 @@ public class NumberGenerator
         {
             numberList.Add( new Random().Next(1,101) );
 
-            if (numberList[i] < indexFromMin)
+            if (numberList[i] <= Min)
             {
-                indexFromMin = i;
+                Min =  numberList[i];
             }
-            else if (numberList[i] > indexFromMax)
+            if (numberList[i] >= max)
             {
-                indexFromMax = i;
+                max = numberList[i];
             }
         }
     }
 
     public void GetOutput()
     {
+        Console.WriteLine("Lista de Números: ");
         for (int i = 0; i < numberList.Count; i++)
         {
-            if (i == indexFromMin)
-            {
-                Console.Write(" ");
-                Console.Write(numberList[i]);
-                Console.Write(" ");
-            }            
+            Console.Write($" {numberList[i]} ");
         }
+        
         Console.WriteLine();
-        Console.WriteLine($"O menor número é {numberList[indexFromMin]} at index {indexFromMin}.");
-        Console.WriteLine($"O maior número é {numberList[indexFromMax]} at index {indexFromMax}.");
+        Console.WriteLine($"O menor número é {Min};");
+        Console.WriteLine($"O maior número é {max}.");
 
     }
 }

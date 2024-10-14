@@ -39,10 +39,11 @@ internal class StartPage
                 Console.WriteLine("Desafio Taboada");
                 Console.WriteLine("Digite 1 para continuar e 2 para voltar a pagina principal");
                 userChoice = Console.ReadLine();
+                
                 switch (userChoice)
                 {
                     case "1":
-                        TabuadaResult.Build((InputValues.Read()));
+                        TabuadaResult.Build(int.Parse(InputValues.Read()));
                         Console.WriteLine("Aperte enter para voltar");
                         Console.ReadLine();
                         BuildHeader();
